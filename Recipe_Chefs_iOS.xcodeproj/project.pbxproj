@@ -14,6 +14,10 @@
 		15F393642BF5FF4E00A4D609 /* Recipe_Chefs_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F393632BF5FF4E00A4D609 /* Recipe_Chefs_iOSTests.swift */; };
 		15F3936E2BF5FF4E00A4D609 /* Recipe_Chefs_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F3936D2BF5FF4E00A4D609 /* Recipe_Chefs_iOSUITests.swift */; };
 		15F393702BF5FF4E00A4D609 /* Recipe_Chefs_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F3936F2BF5FF4E00A4D609 /* Recipe_Chefs_iOSUITestsLaunchTests.swift */; };
+		15F3937D2BF60A5500A4D609 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F3937C2BF60A5500A4D609 /* RecipeModel.swift */; };
+		15F3937F2BF621C000A4D609 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F3937E2BF621C000A4D609 /* ListView.swift */; };
+		15F393812BF735BE00A4D609 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F393802BF735BE00A4D609 /* DetailView.swift */; };
+		15F393832BF73E4800A4D609 /* RecipeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F393822BF73E4800A4D609 /* RecipeManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		15F393692BF5FF4E00A4D609 /* Recipe_Chefs_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Recipe_Chefs_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15F3936D2BF5FF4E00A4D609 /* Recipe_Chefs_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe_Chefs_iOSUITests.swift; sourceTree = "<group>"; };
 		15F3936F2BF5FF4E00A4D609 /* Recipe_Chefs_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe_Chefs_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		15F3937C2BF60A5500A4D609 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
+		15F3937E2BF621C000A4D609 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		15F393802BF735BE00A4D609 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		15F393822BF73E4800A4D609 /* RecipeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +102,14 @@
 		15F393512BF5FF4C00A4D609 /* Recipe_Chefs_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				15F3937E2BF621C000A4D609 /* ListView.swift */,
+				15F3937C2BF60A5500A4D609 /* RecipeModel.swift */,
 				15F393522BF5FF4C00A4D609 /* Recipe_Chefs_iOSApp.swift */,
 				15F393542BF5FF4C00A4D609 /* ContentView.swift */,
 				15F393562BF5FF4D00A4D609 /* Assets.xcassets */,
 				15F393582BF5FF4D00A4D609 /* Preview Content */,
+				15F393802BF735BE00A4D609 /* DetailView.swift */,
+				15F393822BF73E4800A4D609 /* RecipeManager.swift */,
 			);
 			path = Recipe_Chefs_iOS;
 			sourceTree = "<group>";
@@ -257,7 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15F3937F2BF621C000A4D609 /* ListView.swift in Sources */,
+				15F3937D2BF60A5500A4D609 /* RecipeModel.swift in Sources */,
 				15F393552BF5FF4C00A4D609 /* ContentView.swift in Sources */,
+				15F393832BF73E4800A4D609 /* RecipeManager.swift in Sources */,
+				15F393812BF735BE00A4D609 /* DetailView.swift in Sources */,
 				15F393532BF5FF4C00A4D609 /* Recipe_Chefs_iOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
